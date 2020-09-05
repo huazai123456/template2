@@ -1,0 +1,415 @@
+body,div,ul,ol,dl,dt,dd,li,dl,h1,h2,h3,h4 {
+    margin:0;
+    padding:0;
+    font-style:normal;
+    font:12px/22px"\5B8B\4F53",Arial,Helvetica,'Microsoft YaHei',sans-serif
+}
+ol,ul,li{
+    list-style:none
+}
+img{
+    border:0;
+    vertical-align:middle;
+}
+body{
+    color:#000000;
+    text-align:center;
+}
+.clear{
+    clear:both;
+    height:1px;
+    width:100%;
+    overflow:hidden;
+    margin-top:-1px;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+a:hover{
+    color:#BA2636;
+    text-decoration:none;
+}
+
+
+.header_bg{
+    width: 100%;
+    height: 92px;
+    margin:0 auto;
+    background: url("../images/header_bg.jpg") no-repeat center;
+}
+.header{
+    width:1300px;
+    height: 92px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+.header a{
+    display: block;
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: url("../images/nav-bg.png") no-repeat left top;
+    margin-left: 20px;
+}
+.header a:hover{
+    transition: 0.5s;
+    transform: translate(-10px,0);
+}
+.header a:first-child{
+    margin-right: 25px;
+}
+.header a:nth-child(2){
+    margin-right: 30px;
+}
+.header a:nth-child(3):hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+.header a:nth-child(3){
+    background: none;
+    width: 367px;
+    height: 65px;
+    margin-right: 120px;
+}
+.header a:nth-child(4){
+    margin-right: 20px;
+}
+
+.banner{
+    width:100%;
+    height:1018px;
+    margin: 0 auto;
+    background: url("../images/5588ps_bg_index_01.jpg") no-repeat left top;
+}
+
+
+.content{
+    width: 100%;
+    height:4295px;
+    margin: 0 auto;
+    background: url("../images/5588ps_bg_index_02.png") no-repeat left top;
+}
+.nav{
+    width:1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: -80px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    width: 290px;
+    height: 159px;
+    line-height: 159px;
+    background: url("../images/nav-bg (1).png") no-repeat left top;
+    margin-right: 40px;
+}
+.nav ul li:last-child{
+    margin-right: 0;
+}
+.nav ul li:hover{
+    transition: 0.5s;
+    transform: translate(0,10px);
+}
+
+.con1,.con2,.con3,.con4,.con5{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    position: relative;
+    left: 0;
+    top: -90px;
+}
+.con1_title,.con2_title,.con3_title,.con4_title,.con5_title{
+    width: 1200px;
+    height: auto;
+    margin: 20px 0 40px 0;
+}
+.con1_infor{
+    width: 1246px;
+    height: 612px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/news-bg-04.png") no-repeat left top;
+}
+.con1_infor_right{
+    width: 557px;
+    height: 529px;
+    background: url("../images/news-bg-03.png") no-repeat left top;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con1_infor_right ul li{
+    width: 513px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #fff solid;
+    background-image: linear-gradient(#000ec3,#000d4c);
+    margin-bottom: 10px;
+}
+.con1_infor_right ul li a{
+    display: block;
+    width: 515px;
+    height: 42px;
+    background: url("../images/news-bg-02.png") no-repeat 15px center;
+    padding: 
+}
+.con1_infor_right ul li a span{
+    display: inline-block;
+    width: 424px;
+    height: 42px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #ffea00;
+    margin-left: 20px;
+}
+.con1_infor img:hover,.con1_infor_right:hover{
+    transition: 0.5s;
+    transform: translate(0,10px);
+}
+.con1_infor_right ul li:hover{
+    transition: 0.5s;
+    transform: translate(10px,0);
+}
+.con1_infor_right ul li:hover a span{
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.con2_infor{
+    width: 1300px;
+    height: 460px;
+    margin: 0 auto;
+}
+.con2_infor ul li{
+    width: 176px;
+    height: 182px;
+    float: left;
+    margin-bottom: 60px;
+}
+.con2_infor ul li:first-child{
+    margin-left: 110px;
+    background: url("../images/1.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(2){
+    margin-left: 110px;
+    background: url("../images/2.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(3){
+    margin-left: 110px;
+    background: url("../images/3.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(4){
+    margin-left: 110px;
+    background: url("../images/4.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(5){
+    margin-right:70px;
+    background: url("../images/5.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(6){
+    margin-right:100px;
+    background: url("../images/6.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(7){
+    margin-right:100px;
+    background: url("../images/7.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(8){
+    margin-right:70px;
+    background: url("../images/8.png") no-repeat left top;
+}
+.con2_infor ul li:nth-child(9){
+    background: url("../images/9.png") no-repeat left top;
+}
+.con2_infor ul li:hover{
+    transition: 0.5s;
+    transform: translate(0,-10px);
+    background: url("../images/shiwu-02.png") no-repeat left top;
+}
+
+.con3_infor{
+    width: 1300px;
+    height:752px;
+    margin:0 auto;
+    position: relative;
+}
+.con3_infor ul li{
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+.con3_infor ul li a img{
+    width: 100%;
+}
+.prev3,.next3{
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+.prev3{
+    display: block;
+    height: 601px;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    z-index: 6;
+}
+.next3{
+    display: block;
+    height: 601px;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    z-index: 6;
+}
+.prev3:hover,.next3:hover{
+    cursor: pointer;
+    color: #00a0e9;
+}
+
+.con4_infor{
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+.con4_infor img{
+    width: 100%;
+}
+
+.con5_infor{
+    width: 1228px;
+    height: 669px;
+    margin: 0 auto;
+    position: relative;
+}
+.con5_infor_pic{
+    width: 1228px;
+    height: 669px;
+}
+.con5_infor_pic a{
+    display: block;
+    width: 1228px;
+    height: 669px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.prev5{
+    display: block;
+    width: 49px;
+    height: 49px;
+    background: url("../images/shutter_prevBtn.png") no-repeat left top;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -25px;
+}
+.next5{
+    display: block;
+    width: 49px;
+    height: 49px;
+    background: url("../images/shutter_prevBtn.png") no-repeat left top;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+
+
+.footer_bg{
+    width: 100%;
+    height: 404px;
+    margin: 0 auto;
+    background: url("../images/footer_bg.jpg") no-repeat left top;
+}
+.footer_bg_up{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: rgba(7,55,111,0.3);
+    padding: 25px 0;
+}
+.footer{
+    width: 1200px;
+    height: 327px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.footer_right{ 
+    font-size: 14px;
+    color: #082b53;
+    text-align: right;
+    margin-left: 120px;
+}
+
+.cebian{
+    width:189px;
+    height: 674px;
+    background: url("../images/floatingbg.png") no-repeat left top;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -337px;
+}
+.cebian img{
+    width: 109px;
+    height: 109px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+.cebian h6{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cebian p span{
+    font-size: 14px;
+    color: #999;
+    display: block;
+}
+.cebian p  img{
+    width:77px;
+    height:22px;
+    margin-top: 0;
+} 
+.cebian ul li{
+    margin-bottom: 5px;
+}
+.cebian ul li a{
+    font-size: 14px;
+    color: #dab974;
+    font-family: "Microsoft YaHei";
+}
+.cebian ul li:hover a{
+    color: #fff;
+    cursor: pointer;
+}
+.backtop{
+    font-size: 14px;
+    color: #dab974;
+    font-family: "Microsoft YaHei";
+}
+.backtop:hover{
+    color: #fff;
+    cursor: pointer;
+}

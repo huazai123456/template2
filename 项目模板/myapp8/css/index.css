@@ -1,0 +1,461 @@
+body,div,ul,ol,dl,dt,dd,li,dl,h1,h2,h3,h4 {
+    margin:0;
+    padding:0;
+    font-style:normal;font:12px/22px"\5B8B\4F53",Arial,Helvetica,'Microsoft YaHei',sans-serif
+}
+ol,ul,li{
+    list-style:none
+}
+img{
+    border:0;
+    vertical-align:middle;
+}
+body{
+    color:#000000;
+    text-align:center;
+}
+.clear{
+    clear:both;
+    height:1px;
+    width:100%;
+    overflow:hidden;
+    margin-top:-1px;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+a:hover{
+    color:#BA2636;
+    text-decoration:none;
+}
+
+
+.header_bg{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background: url("../images/bg.jpg") no-repeat left top;
+}
+.header{
+    width: 1200px;
+    height:100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    height: 100px;
+}
+.header ul li{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.header ul li a{
+    color: #fff;
+}
+.header ul li a span{
+    font-size: 18px;
+    font-family: "microsift YaHei";
+}
+.header ul li a pre{
+    font-size: 12px;
+    margin: 0;
+}
+.header ul li:hover a,.header ul li.active a{
+    color: #F00;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+
+.banner{
+    width: 100%;
+    height:1000px;
+    margin: 0 auto;
+    background: url("../images/bgc.jpg") no-repeat left top;
+    position: relative;
+}
+.nav{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    left:50%;
+    margin-left: -600px;
+    bottom: 30px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 295px;
+}
+.nav ul li{
+    width: 219px;
+    height:92px;
+    margin-right: 42px;
+}
+.nav ul li a{
+    display: block;
+    width: 219px;
+    height: 92px;
+}
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: url("../images/bgc2.jpg") no-repeat left top;
+    padding-bottom: 563px;
+}
+.con1{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.con1_lis{
+    width: 907px;
+    height: 370px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.con1_pic{
+    width: 1814px;
+    height: 370px;
+    position: relative;
+}
+.con1_pic a{
+    display: block;
+    width: 907px;
+    height: 370px;
+    float: left;
+}
+.con1_pic a img{
+    width:907px;
+}
+.con1_point{
+    width: 907px;
+    height: 5px;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top:-40px;
+}
+.con1_point a{
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    background: #fff;
+}
+.con1_point a.active{
+    background:#F00;
+}
+.con2{
+    width: 1200px;
+    height: auto;
+    margin: 180px auto;
+}
+.con2_lists{
+    width: 970px;
+    height: 555px;
+    margin-left: 200px;
+}
+.con2_lists a{
+    display:flex;
+    align-items: center;
+    width: 970px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+}
+.con2_lists a em{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "microsift YaHei";
+    color: #ccc;
+}
+.con2_lists a span{
+    font-size: 18px;
+    font-family: "microsift YaHei";
+    color:#B1A098;
+    text-align: left;
+}
+.con2_lists a:hover span{
+    transition: 0.5s;
+    color:#FF0000;
+}
+.con3{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.con3_pic{
+    width: 1500px;
+    height: 650px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 300px;
+    margin-bottom: 272px;
+}
+.con3_pic a{
+    display:block;
+    width: 664px;
+    height: 650px;
+}
+.con3_pic1{
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: 1;
+    transform: scale(0.6);
+    opacity: 0.6;
+}
+.con3_pic2{
+    position: absolute;
+    left:25%;
+    top: 0;
+    margin-left: -166px;
+    z-index: 2;
+    transform: scale(0.8);
+    opacity: 0.8;
+}
+.con3_pic3{
+    position: absolute;
+    left:50%;
+    top: 0;
+    margin-left: -332px;
+    z-index: 3;
+}
+.con3_pic4{
+    position: absolute;
+    right:25%;
+    top: 0;
+    margin-right: -166px;
+    z-index: 2;
+    transform: scale(0.8);
+    opacity: 0.8;
+}
+.con3_pic5{
+    position: absolute;
+    right:0;
+    top: 0;
+    z-index: 1;
+    transform: scale(0.6);
+    opacity: 0.6;
+}
+.con3_bth{
+    width: 1500px;
+    height: 650px;
+    position: absolute;
+    left:200px;
+    top: 0;
+    z-index: 9;
+}
+.con3_bth a{
+    display: block;
+    width: 104px;
+    height: 68px;
+    margin-top: 300px;
+
+}
+.prev3{
+    float: left;
+    background: url("../images/btn1.png") no-repeat left top;
+}
+.next3{
+    float: right;
+    background: url("../images/btn2.png") no-repeat left top;
+}
+.con3_bth a:first-child:hover{
+    background: url("../images/btn1_hover.png") no-repeat left top;
+}
+.con3_bth a:last-child:hover{
+    background: url("../images/btn2_hover.png") no-repeat left top;
+}
+.con4{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.con4_pic{
+    width: 1160px;
+    height: 630px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.con4_pic a{
+    display: block;
+    width: 1160px;
+    height: 630px;
+    position: absolute;
+    left:15px;
+    top: 5px;
+}
+.con4_bth{
+    width: 1500px;
+    height: 630px;
+    position: absolute;
+    left: 212px;
+    top: 0;
+}
+.con4_bth a{
+    display: block;
+    width: 104px;
+    height: 68px;
+    margin-top: 290px;
+}
+.prev4{
+    float: left;
+    background: url("../images/btn1.png") no-repeat left top;
+}
+.next4{
+    float: right;
+    background: url("../images/btn2.png") no-repeat left top;
+}
+.con4_bth a:first-child:hover{
+    background: url("../images/btn1_hover.png") no-repeat left top;
+}
+.con4_bth a:last-child:hover{
+    background: url("../images/btn2_hover.png") no-repeat left top;
+}
+
+
+
+.footer_bg{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background: url("../images/bg (1).jpg") repeat-x top center #000;
+}
+.footer{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+.footer_up{
+    width: 1200px;
+    height: auto;
+    text-align: left;
+    font-size: 14px;
+    color: #999;
+    letter-spacing:5px;
+    border-bottom: 1px #333 dashed;
+    padding: 23px 0;
+}
+.footer_down{
+    height: 231px;
+    text-align: right;
+    padding-top: 40px;
+}
+.footer_down img{
+    float: left;
+}
+.footer_right{
+    float: right;
+}
+.footer_right p,.footer_right p a{
+    font-size: 14px;
+    color: #666;
+}
+.footer_right p span,.footer_right p a{
+    padding-right: 10px;
+}
+.footer_right p span{
+    font-size: 14px;
+    color:#69F;
+    font-weight: bold;
+}
+.footer_right p span:hover,.footer_right p a:hover{
+    color:#0CF;
+    cursor: pointer;
+}
+
+
+.cebian{
+    width: 248px;
+    height: 798px;
+    position: fixed;
+    right:0;
+    top:50%;
+    margin-top:-399px;
+    z-index: 99;
+}
+.cebian_btn{
+    position: absolute;
+    left: -90px;
+    top: 110px;
+}
+.cebian_btn a{
+    display: block;
+    width: 86px;
+    height: 73px;
+    background: url("../images/left2.png") no-repeat left top;
+}
+.cebian_main{
+    width: 248px;
+    height: 798px;
+    background: url("../images/left1.png") no-repeat left top;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cebian_main h6{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin: 180px 0 20px 36px;
+
+}
+.cebian_main span{
+    display: block;
+    width: 157px;
+    height: 160px;
+    padding: 10px;
+    background: #4f0b13;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.cebian_main span img{
+    width: 100%;
+}
+.cebian_main p{
+    font-size: 16px;
+    font-family: "microsift YaHei";
+    color: #fff;
+    margin: 5px 0 5px 50px;
+    text-align: left;
+}
+.cebian_main ul{
+    width: 157px;
+    height: auto;
+    margin-left: 60px;
+}
+.cebian_main ul li{
+    width: 157px;
+    height: 51px;
+    line-height: 51px;
+    margin-top: 5px;
+    text-align: center;
+    background: url("../images/left3.png") no-repeat left top;
+}
+.cebian_main ul li a{
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
+.cebian_main ul li:hover{
+    background: url("../images/left5.png") no-repeat left top;
+}

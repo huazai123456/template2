@@ -1,0 +1,281 @@
+body,div,ul,ol,dl,dt,dd,li,dl,h1,h2,h3,h4 {
+    margin:0;
+    padding:0;
+    font-style:normal;
+    font:12px/22px"\5B8B\4F53",Arial,Helvetica,'Microsoft YaHei',sans-serif
+}
+ol,ul,li{
+    list-style:none
+}
+img{
+    border:0;
+    vertical-align:middle;
+}
+body{
+    color:#000000;
+    text-align:center;
+}
+.clear{
+    clear:both;
+    height:1px;
+    width:100%;
+    overflow:hidden;
+    margin-top:-1px;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+a:hover{
+    color:#BA2636;
+    text-decoration:none;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../images/t-r-b.png") repeat-x left top;
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    margin-left: 490px;
+    display:flex;
+    align-items: center;
+    background: url("../images/t-nav-c.png") no-repeat 30px center;
+}
+.header ul li{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.header ul li a{
+    color: #242424;
+}
+.header ul li:hover a,.header ul li.active a{
+    color: #b42a00;
+}
+.header ul li a span{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+.header ul li a pre{
+    font-size: 14px;
+    margin:0;
+}
+.header ul li:last-child a{
+    display: block;
+    width: 66px;
+    height: 66px;
+    background: url("../images/bailu123logo.png") no-repeat left top;
+    opacity: 0.5;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 898px;
+    margin: 0 auto;
+    background: url("../images/bg_01.jpg") no-repeat left top;
+    position: relative;
+}
+.video video{
+    width: 100%;
+    height: 898px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.nav{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: 0;
+    bottom:-600px;
+}
+.nav a:first-child{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url("../images/fast_down1.png") no-repeat left top;
+    margin-right: 50px;
+}
+.nav a:nth-child(2){
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url("../images/fast_down2.png") no-repeat left top;
+    margin-right: 50px;
+}
+.nav a:nth-child(3){
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url("../images/fast_down3.png") no-repeat left top;
+    margin-right: 50px;
+}
+.nav a:last-child{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url("../images/fast_down4.png") no-repeat left top;
+}
+.nav a:first-child:hover{
+    transition: 0.5s;
+    background: url("../images/fast_down1_hover.png") no-repeat left top;
+}
+.nav a:nth-child(2):hover{
+    transition: 0.5s;
+    background: url("../images/fast_down2_hover.png") no-repeat left top;
+}
+.nav a:nth-child(3):hover{
+    transition: 0.5s;
+    background: url("../images/fast_down3_hover.png") no-repeat left top;
+}
+.nav a:last-child:hover{
+    transition: 0.5s;
+    background: url("../images/fast_down4_hover.png") no-repeat left top;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 2300px;
+    margin: 0 auto;
+    background: url("../images/bg_02.jpg") no-repeat left top;
+}
+.con1{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.con1_left{
+    width: 300px;
+    height: 360px;
+    overflow:hidden;
+    float: left;
+    margin-left: 28px;
+    position: relative;
+}
+.con1_left_pic{
+    width: 600px;
+    height: 360px;
+    position: relative;
+}
+.con1_left_pic a{
+    display: block;
+    width: 300px;
+    height: 360px;
+    float: left;
+}
+.con1_left_pic a img{
+    width: 100%;
+}
+.con1_left_num{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.con1_left_num a{
+    display:block;
+    width: 20px;
+    height: 20px;
+    background: #63380e;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    margin-left:5px;
+}
+.con1_left_num a.active,.con1_left_num a:hover{
+    background: #e95c06;
+}
+.con1_right{
+    width: 790px;
+    height: 340px;
+    float: left;
+    margin-left: 75px;
+}
+.con1_right_nav{
+    width: 790px;
+    height: 50px;
+    margin-top: 10px;
+}
+.con1_right_nav ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.con1_right_nav ul li{
+    width: 140px;
+    margin-left: 40px;
+}
+.con1_right_nav ul li a{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    color: #fff;
+}
+.con1_right_nav ul li:hover a,.con1_right_nav ul li.active a{
+    color: #ce7230;
+}
+
+.con1_right_lists{
+    width: 790px;
+    height: 287px;
+    overflow: hidden;
+}
+.list{
+    width: 3160px;
+    height:287px;
+    float: left;
+}
+.list ul li{
+    width: 790px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    border-bottom: 1px dotted #513933;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list ul li a{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #9b8678;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(#1b1b1b 1%,#000 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_mid{
+    margin: 0 20px 0 40px;
+}
+.footer_mid p{
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+    margin: 0;
+}

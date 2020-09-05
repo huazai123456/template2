@@ -1,0 +1,248 @@
+body,div,ul,ol,dl,dt,dd,li,dl,h1,h2,h3,h4 {
+    margin:0;
+    padding:0;
+    font-style:normal;
+    font:12px/22px"\5B8B\4F53",Arial,Helvetica,'Microsoft YaHei',sans-serif
+}
+ol,ul,li{
+    list-style:none
+}
+img{
+    border:0;
+    vertical-align:middle;
+}
+body{
+    color:#000000;
+    text-align:center;
+}
+.clear{
+    clear:both;
+    height:1px;
+    width:100%;
+    overflow:hidden;
+    margin-top:-1px;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+a:hover{
+    color:#BA2636;
+    text-decoration:none;
+}
+
+
+
+.header_bg{
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    margin-left: 260px;
+    display:flex;
+    align-items: center;
+}
+.header ul li{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.header ul li a{
+    color: #fff;
+}
+.header ul li:hover a,.header ul li.active a{
+    transition: 0.5s;
+    margin-bottom: 10px;
+    color: #F00;
+}
+.header ul li a span{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+.header ul li a pre{
+    font-size: 14px;
+    margin:0;
+}
+.header ul li:last-child a{
+    display: block;
+    width: 66px;
+    height: 66px;
+    background: url("../images/123jpeg.png") no-repeat left top;
+    opacity: 0.5;
+}
+
+
+.banner{
+    width: 100%;
+    height: 895px;
+    margin: 0 auto;
+    background: url("../images/bg_01.jpg") no-repeat left top;
+}
+
+
+.content{
+    width: 100%;
+    height: 3180px;
+    background: url("../images/index_01.jpg") no-repeat left top;
+    padding-top: 220px;
+}
+.con1{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.con1 ul li{
+    width: 900px;
+    height: 65px;
+    line-height: 65px;
+    text-align: left;
+    border-bottom: 1px #fff dotted;
+    margin-left: 30px;
+}
+.con1 ul li a{
+    font-size: 18px;
+    color: #edc385;
+    font-family: "Microsoft YaHei";
+}
+
+.con2{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.con2_lists{
+    width: 1200px;
+    height: auto;
+    margin-top: 360px;
+}
+.con2_list{
+    border: 5px #634427 solid;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+.con2_list h6{
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    color: #fff;
+    background:#634427; 
+    margin: 0;
+    padding: 15px 0;
+}
+.con2_list a{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+.con2_list a img{
+    width: 100%;
+}
+.con2_list:frist-child,.con2_list:nth-child(2){
+   width: 1190px;
+   height: auto;
+}
+.con2_list:nth-child(3),.con2_list:nth-child(4),.con2_list:nth-child(5),.con2_list:nth-child(6),.con2_list:nth-child(7),.con2_list:nth-child(8){
+   width: 353px;
+   height: auto;
+   margin-right: 20px;
+}
+.con2_list:nth-child(5),.con2_list:nth-child(8){
+    margin-right: 0;
+}
+
+
+
+
+.footer_bg{
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+    background:#000;
+}
+.footer{
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.footer_right{
+    margin-left: 50px;
+}
+.footer_up a{
+    font-size: 12px;
+    color: #999;
+    margin-right: 30px;
+}
+.footer_up a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer_right p{
+    font-size: 12px;
+    color: #999;
+}
+.cebian{
+    width: 283px;
+    height: 619px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -310px;
+    background: url("../images/left1.png") no-repeat left top;
+}
+.cebian h5{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 115px;
+}
+.cebian span{
+    display: block;
+    width: 118px;
+    height: 118px;
+    padding: 5px;
+    background: #900;
+    margin-left: 140px;
+}
+.cebian p{
+    font-size: 14px;
+    color: #fff;
+    margin-left:115px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
+.cebian ul{
+    margin-left: 120px;
+}
+.cebian ul li{
+    width: 157px;
+    height: 51px;
+    line-height: 51px;
+    margin-bottom: 5px;
+    background: url("../images/left3.png") no-repeat left top; 
+}
+.cebian ul li a{
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
+.cebian ul li:hover{
+    background: url("../images/left3.png") no-repeat left -51px; 
+}

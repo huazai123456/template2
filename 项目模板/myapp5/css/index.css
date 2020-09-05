@@ -1,0 +1,298 @@
+body,div,ul,ol,dl,dt,dd,li,dl,h1,h2,h3,h4 {
+    margin:0;
+    padding:0;
+    font-style:normal;font:12px/22px"\5B8B\4F53",Arial,Helvetica,'Microsoft YaHei',sans-serif
+}
+ol,ul,li{
+    list-style:none
+}
+img{
+    border:0;
+    vertical-align:middle;
+}
+body{
+    color:#000000;
+    text-align:center;
+}
+.clear{
+    clear:both;
+    height:1px;
+    width:100%;
+    overflow:hidden;
+    margin-top:-1px;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+a:hover{
+    color:#BA2636;
+    text-decoration:none;
+}
+
+
+.banner{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+}
+.banner_pic img{
+    width: 100%;
+    position:relative;
+}
+.flash{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.music{
+    width: 65px;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.nav{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    position: absolute;
+    left:494px;
+    top:769px;
+    z-index: 9;
+
+}
+.nav ul li{
+    float: left;
+    margin-left: 40px;
+}
+.nav ul li:first-child{
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down1.png") no-repeat center;
+}
+.nav ul li:nth-child(2){
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down2.png") no-repeat center;
+}
+.nav ul li:nth-child(3){
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down3.png") no-repeat center;
+}
+.nav ul li:last-child{
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down4.png") no-repeat center;
+}
+.nav ul li:first-child:hover{
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down1_hover.png") no-repeat center;
+}
+.nav ul li:nth-child(2):hover{
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down2_hover.png") no-repeat center;
+}
+.nav ul li:nth-child(3):hover{
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down3_hover.png") no-repeat center;
+}
+.nav ul li:last-child:hover{
+    width: 180px;
+    height: 180px;
+    background: url("../images/fast_down4_hover.png") no-repeat center;
+}
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.con1{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background: url("../images/index_01.jpg") no-repeat left top;
+}
+.con1_title{
+    width: 1000px;
+    height: 52px;
+    margin: 0 auto;
+    position: relative;
+    left: 90px;
+    top: 175px;
+}
+.con1_title ul{
+    height: 50px;
+}
+.con1_title ul li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    margin-right: 50px;
+}
+.con1_title ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#f3dbb6;   
+}
+.con1_title ul li:hover,.con1_title ul li.active{
+    border-bottom: 2px #feb900 solid;
+}
+.con1_title ul li:hover a,.con1_title ul li.active a{
+    color:#feb900; 
+}
+.con1_lists{
+    width:1000px;
+    height:400px;
+    margin: 0 auto;
+    position: relative;
+    left: 90px;
+    top: 180px;
+    overflow: hidden;
+}
+.con1_list1{
+    width:1000px;
+    height: auto;
+    margin: 20px auto;
+}
+.con1_list1 ul li{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #999 dashed;
+}
+.con1_list1 ul li a{
+    color: #333;
+}
+.con1_list1 ul li a span{
+    float: left;
+    width: 700px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.con1_list1 ul li a time{
+   float: right;
+}
+.con1_list1 ul li a span,.con1_list1 ul li a time{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.con2{
+    width: 100%;
+    height: 1100px;
+    margin: 0 auto;
+    background: url("../images/index_02.jpg") no-repeat left top; 
+}
+.con2_lists{
+    width: 1200px;
+    height:1100px;
+    margin: 0 auto;
+}
+.con2_list{
+    width: 545px;
+    height: 460px;
+    border: 10px #320502 solid;
+    background: #fff;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.con2_list:nth-child(2n){
+    margin-right: 0;
+}
+.con2_list_pic img{
+    width: 545px;
+    height: 460px;
+}
+
+
+.footer_bg{
+    width:100%;
+    height: 240px;
+    margin: 0 auto;
+    background: #000;
+}
+.footer{
+    width: 1200px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_right{
+    margin-left: 50px;
+}
+.footer_right p{
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+}
+
+
+.cebian{
+    width: 160px;
+    height: 680px;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    margin-top: -400px;
+    background: url("../images/navbg.png") no-repeat center;
+}
+.cebian_pic{
+    position:absolute;
+    left: 28px;
+    top: 128px;
+}
+.cebian_pic span{
+    display: block;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    margin-top: 10px;
+}
+.cebian ul{
+    width: 120px;
+    position: absolute;
+    left: 30px;
+    top: 300px;
+}
+.cebian ul li{
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #a12e01;
+    margin-bottom: 10px;
+}
+.cebian ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+.cebian ul li:hover a{
+    color: #fe8402;
+}
+
+
+.backtop{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right:50px;
+    bottom:50px;
+    background: url("../images/arrow_top.png") no-repeat left top;
+}
